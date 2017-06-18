@@ -1,5 +1,7 @@
 #Demo Project for Alexa Custom Skill with AWS Lambda function in Java
 
+For more information: http://www.a2cart.com/alexa-custom-skill-with-aws-lambda-function-in-java/
+
 A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a custom skill for the Amazon Echo using the Alexa SDK.
 
 ## Concepts
@@ -26,7 +28,7 @@ To run this example skill you need to do two things. The first is to deploy the 
 
 ### Alexa Skill Setup
 1. Go to the [Alexa Console](https://developer.amazon.com/edw/home.html) and click Add a New Skill.
-2. Set "HelloWorld" as the skill name and "greeter" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, ask A2Cart to say hello."
+2. Set "HelloWorld" as the skill name and "A2Cart" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, ask A2Cart to say hello."
 3. Select the Lambda ARN for the skill Endpoint and paste the ARN copied from above. Click Next.
 4. Copy the Intent Schema from the included IntentSchema.json.
 5. Copy the Sample Utterances from the included SampleUtterances.txt. Click Next.
